@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+ <html lang="pl">
+     <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="main.css">
+      <meta name="description" content="Strona ">
+      <meta name="keywords" content="cv, damian, czapski, projekt, programowanie, internetowe">
+      <meta name="author" content="&copy;2016 Damian Czapski">
+      <meta name="copyright" content="(c) 2016 czapskid">
+      <meta name="reply-to"  content="czapskid@ee.pw.edu.pl">
+      <title>Damian Czapski - Programowanie Internetowe</title>
+    <link rel="stylesheet" href="gmap_style.css" type="text/css" />
+
+     <script src="https://www.google.com/jsapi"></script>
+     <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+      <meta name="viewport" content="initial-scale=1.0">
+
+ </head>
+    <body>
+    <div id = "caly_blok">
+
+         <div id = "naglowek">
+            Programowanie Internetowe<br>
+            Projekt nr. 5
+         </div>
+               <div id = "spis_tresci"><ul>
+                         <li><a href="index.php">Strona główna</a></li>
+                         <li><a href="o_mnie.html">O mnie</a></li>
+                     <li><a href="projekt1.html">Projekt 1</a></li>
+                     <li><a href="projekt2.html">Projekt 2</a></li>
+                     <li><a href="projekt3.php">Projekt 3</a></li>
+                     <li><a href="projekt4.html">Projekt 4</a></li>
+                     <li><a href="projekt5.html">Projekt 5</a>
+<ul>
+            <li><a href = "https://github.com/czapskid/projekt5">Źródła strony</a></li>
+
+                </ul>
+
+</li>
+                     
+                     <li><a href="projekt3/logout.php">Wyloguj</a></li>
+               </ul></div>
+
+
+         <div id = "tresc">
+            <h1>Projekt 5</h1>
+             
+      <div class="leftPanel">
+        <input type="text" id="start-input" placeholder="start..." />
+        <input type="text" id="end-input" placeholder="cel..." />
+        <input type="text" id="wayp1" name="waypoints[]" placeholder="przez..." />
+        <input type="text" id="wayp2" name="waypoints[]" placeholder="przez..." />
+        <input type="text" id="wayp3" name="waypoints[]" placeholder="przez..." />
+        <input type="text" id="wayp4" name="waypoints[]" placeholder="przez..." />
+        <input type="text" id="wayp5" name="waypoints[]" placeholder="przez..." />
+        Tryb podróży:
+        <select id="mode">
+          <option value="DRIVING">Samochodem</option>
+          <option value="WALKING">Pieszo</option>
+          <option value="BICYCLING">Rowerem</option>
+          <option value="TRANSIT">Transportem publicznym</option>
+        </select>
+
+        <input type="submit" id="submit" value="Wyznacz trasę" />
+      </div>
+      <div class="content">
+        <div id="map"></div>
+        <div id="elevation_chart"></div>
+      </div>
+      <div class="rightPanel" id="rightPanel">
+        <div id="total"></div>
+        <div id="directionsPanel"></div>
+      </div>
+      <div style="clear:both;"></div>
+
+      <script type="text/javascript" src="map.js" ></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy5tPr_h8y6o9eRhO_ARcgX4A7HexcvtA&libraries=places&callback=initMap" async defer></script>
+    </div>
+      
+<a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fvolt.iem.pw.edu.pl%2F~czapskid%2Fprojekt5.html">
+                  <img src="http://dev.bowdenweb.com/a/i/dev/webcomm/badge-w3c-valid-html5.png" alt="Valid XHTML 1.0 Strict" height="31" width="88" />
+               </a>
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Poprawny CSS!" />
+    </a>
+    </div>
+
+  </body>
+</html>
